@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar{
+    background: black;
+}
+.navbar-container{
+    display: flex;
+    background: black;
+    height: 80px;
+    padding: 0 50px;
+    justify-content: space-between;
+    margin: 0px;
+}
+.logo, .link-item{
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+.navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.navbar-item{
+    margin-top: 20px;
+    list-style: none;
+}
+.link-item{
+    font-size: 20px;
+    color: #E5E7EB;
+    margin-left: 50px;
+}
+
+/*about section*/
+.about{
+    height: 550px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+}
+.about-description{
+    width: 500px;
+    margin-top: 180px;
+    margin-left: 170px;
+}
+.paragraph{
+    color: #E5E7EB;
+    font-size: 25px;
+}
+.img-cat{
+    width: 500px;
+    height: 400px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.sign-up-button{
+    margin-top: 15px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+/*breeds section*/
+.breeds-section{
+    height: 600px;
+}
+.text-breeds{
+    color: #1F2937; 
+    margin-top: 20px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.breeds-section{
+    margin: 50px 200px 50px;
+}
+.img-breeds-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.img-breed{
+    border-radius: 15px;
+    width: 250px;
+    height: 350px;
+}
+.content-breed{
+    align-items: center;
+    justify-content: center;
+}
+.info-breed{
+    border-width: 5px;
+    border-color: black;
+}
+.text-img{
+    display: flex;
+    justify-content: center;
+}
+
+/*qoute section*/
+.quote-section{
+    height: 450px;
+    background: #c8c7c7;
+}
+.quote{
+    padding: 150px 250px 15px;
+    font-size: 30px;
+}
+.author{
+    margin-left: 1050px;
+}
+
+/*Sign Up section*/
+.signUp-section{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signUp-container{
+    height: 180px;
+    width: 1200px;
+    background: #3882F6;
+    border-radius: 20px; 
+    display: flex;
+   
+}
+.call-section{
+    color: white;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+.call-text{
+    font-size: 20px;
+}
+.signUp{
+    height: 50px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 3px;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+/*footer section*/
+.footer{
+    height: 100px;
+    background: black;
+}
+.footer-text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
